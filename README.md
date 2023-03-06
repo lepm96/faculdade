@@ -1,4 +1,7 @@
-# faculdade
-Arquivos relacionados a atividades da FACULDADE UNIESP.
+# Faculdade
 
--> Arquivos de atividades em aula
+-->> Arquivos relacionados as atividades da FACULDADE UNIESP.
+
+- Testes
+- Exercicios
+- Trabalhos
