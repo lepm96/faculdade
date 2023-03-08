@@ -1,6 +1,6 @@
 # Faculdade
 
--->> Arquivos relacionados as atividades da FACULDADE UNIESP.
+> Arquivos relacionados as atividades da faculdade **UNIESP**.
 
 - Testes
 - Exercicios
