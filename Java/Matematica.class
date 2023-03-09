@@ -1,8 +1,0 @@
-public class Matematica {
-    int a;
-    int b;
-
-    public void soma(){
-        a + b
-    }
-}
