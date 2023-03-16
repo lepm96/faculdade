@@ -1,3 +1,4 @@
+package exerc1;
 
 public class Matematica {
 

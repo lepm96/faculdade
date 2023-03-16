@@ -1,3 +1,4 @@
+package exerc1;
 import java.util.Scanner;
 
 public class main {
@@ -9,7 +10,7 @@ public class main {
 
         do {
             System.out.println(
-                    "\nEscolha a opção desejada:\n1) Soma\n2) Subtração\n3) Multiplicação\n4) Divisão \n5) Sair");
+                    "\nEscolha a opção desejada:\n1) Soma\n2) Subtração\n3) Divisão \n4) Multiplicação \n5) Sair");
             escolha = entrada.nextInt();
 
             if (escolha == 1) {
@@ -30,7 +31,7 @@ public class main {
 
                 System.out.print("Digite o primeiro número: ");
                 int n2 = entrada.nextInt();
-                System.out.print(n1 + " + " + n2 + " = " + m1.subtracao(n1, n2));
+                System.out.print(n1 + " - " + n2 + " = " + m1.subtracao(n1, n2));
 
             } else if (escolha == 3) {
                 System.out.println("---DIVISÃO---");
@@ -40,7 +41,7 @@ public class main {
 
                 System.out.print("Digite o primeiro número: ");
                 int n2 = entrada.nextInt();
-                System.out.print(n1 + " + " + n2 + " = " + m1.divisao(n1, n2));
+                System.out.print(n1 + " / " + n2 + " = " + m1.divisao(n1, n2));
 
             } else if (escolha == 4) {
                 System.out.println("---MULTIPLICAÇÃO---");
@@ -50,7 +51,9 @@ public class main {
 
                 System.out.print("Digite o primeiro número: ");
                 int n2 = entrada.nextInt();
-                System.out.print(n1 + " + " + n2 + " = " + m1.multiplicacao(n1, n2) + "\n");
+                System.out.print(n1 + " x " + n2 + " = " + m1.multiplicacao(n1, n2) + "\n");
+            } else {
+                System.out.println(" Fim do programa!!! ");
             }
 
         } while (escolha != 5);
